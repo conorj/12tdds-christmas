@@ -1,6 +1,9 @@
 <?php
+
+use PHPUnit\Framework\TestCase;
+
 require_once(__DIR__.'/../../Day1/CalcStats.php');
-class CalcStatsTest extends PHPUnit_Framework_TestCase {
+class CalcStatsTest extends TestCase {
     public function setUp() {
       $input = array(-3,-2,-1,0,1,2,3);
       $this->obj   = new CalcStats($input);

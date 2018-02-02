@@ -1,6 +1,9 @@
 <?php
+
+use PHPUnit\Framework\TestCase;
+
 require_once(__DIR__.'/../../Day2/IntegerToString.php');
-class IntegerToStringTest extends PHPUnit_Framework_TestCase {
+class IntegerToStringTest extends TestCase {
     private $_test_data = array(
         0 => 'zero',
         1 => 'one',

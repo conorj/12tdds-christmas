@@ -1,6 +1,9 @@
 <?php
+
+use PHPUnit\Framework\TestCase;
+
 require_once(__DIR__.'/../../Day3/MineField.php');
-class MineFieldTest extends PHPUnit_Framework_TestCase {
+class MineFieldTest extends TestCase {
     private $_test_data = array(
         "..\n.." => "00\n00",
         ".*\n.." => "1*\n11",

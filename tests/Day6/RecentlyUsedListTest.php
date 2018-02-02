@@ -1,4 +1,7 @@
 <?php
+
+use PHPUnit\Framework\TestCase;
+
 require_once(__DIR__.'/../../Day6/RecentlyUsedList.php');
 /**
  * RecentlyUsedList
@@ -7,7 +10,7 @@ require_once(__DIR__.'/../../Day6/RecentlyUsedList.php');
  * @uses _Framework_TestCase
  * @author Conor Ryan <conor.ryan1302@gmail.com>
  */
-class RecentlyUsedListTest extends PHPUnit_Framework_TestCase {
+class RecentlyUsedListTest extends TestCase {
     private $expected_output = "";
 
     /**
